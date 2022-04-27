@@ -1,0 +1,28 @@
+class abc extends xyz{
+    abc(){
+        super.doSomething();
+    }
+    void doSomething(){
+        System.out.println("abc doSomething");
+    }
+    void doNothing(){
+        System.out.println("abc doNothing");
+    }
+}
+
+class xyz{
+    void doSomething(){
+        System.out.println("xyz doSomething");
+    }
+    void doOtherthing(){
+        System.out.println("xyz doOtherthing");
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		abc a = new abc();
+		a.doSomething();
+	}
+}
