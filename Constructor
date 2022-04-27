@@ -1,0 +1,22 @@
+class Xyz{
+    String language;
+    Xyz(){
+        this.language = "Java";
+    }
+    Xyz(String language){
+        this.language = language;
+    }
+    void display(){
+        System.out.println(language);
+    }
+}
+
+public class Main
+{
+	public static void main(String[] args) {
+		Xyz a = new Xyz();
+		a.display();
+		Xyz b = new Xyz("C Programming");
+		b.display();
+	}
+}
