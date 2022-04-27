@@ -1,0 +1,27 @@
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int[] age = {11,12,13};
+		System.out.println(age[0]);
+		age[2] = 16;
+		System.out.println(age[2]);
+		
+		
+		//1D array
+		int numbers[] = new int[5];
+		numbers[3] = 10;
+		System.out.println(numbers[3]);
+		
+		//2D array
+		int twoD[][]= new int[2][2];
+		twoD[1][1] = 11;
+		System.out.println(twoD[1][1]);
+		
+		//String
+		String[] names = new String[100];
+		names[1] = "Dhakshin";
+		System.out.println(names[1]);
+	}
+}
+
