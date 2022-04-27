@@ -1,7 +1,7 @@
 class Xyz{
     String language;
     Xyz(){
-        this.language = "Java";
+        this("Java");   // we can use this keyword to call another constructor
     }
     Xyz(String language){
         this.language = language;
